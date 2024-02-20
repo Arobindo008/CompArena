@@ -1,0 +1,109 @@
+@font-face {
+    font-family: newFont;
+    src: url(/font/Cocogoose\ Pro\ Ultralight-trial.ttf);
+}
+
+.div1 {
+    padding: 5px;
+    padding-top: pt;
+    padding-bottom: pb;
+    padding-left: pl;
+    padding-right: pr;
+}
+
+.div2 {
+    margin: 10px;
+    margin-top: mt;
+    margin-left: ml;
+}
+
+
+.textarea1 {
+    margin: 1% 0 0 0;
+    width: 1155px;
+}
+
+.t1 {
+    width: 40%;
+    margin: 10px;
+}
+
+
+
+
+::placeholder {
+    padding-left: 10%;
+    border: none;
+}
+
+footer {
+    margin-bottom: 20%;
+}
+
+
+
+.bt1 {
+    transition: 0.5s;
+    width: 140px;
+    border: none;
+    background: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 5% 0 0 19%;
+    font-family: newFont;
+
+}
+
+.bt1:hover {
+    border-radius: 10px;
+    background-color: white;
+    color: #B494BB;
+}
+
+
+.newcontainer {
+    width: 450px;
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+    margin-left: 15%;
+}
+
+.button1 {
+    background: none;
+    border: none;
+    margin-left: 5%;
+}
+
+.inp {
+    background: none;
+    width: 350px;
+    margin-left: 3%;
+    border: none;
+    outline: none;
+
+}
+
+.inp::placeholder {
+    font-family: newFont;
+    color: #B494BB;
+
+}
+
+.button2 {
+    transition: 0.5s;
+    border: none;
+    background: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: newFont;
+
+}
+
+.button2:hover {
+    border-radius: 10px;
+    background-color: white;
+    color: #B494BB;
+}
